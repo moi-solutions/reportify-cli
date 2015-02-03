@@ -1,5 +1,5 @@
 {
-  "name": "reportify-auth-cli",
+  "name": "reportify-cli",
   "version": "0.0.1",
   "description": "CLI to authenticate Reportify",
   "main": "index.js",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/moi-team/reportify-auth-cli",
   "dependencies": {
+    "colors": "^1.0.3",
     "request": "^2.53.0"
   }
 }
