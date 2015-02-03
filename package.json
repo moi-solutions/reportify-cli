@@ -1,0 +1,36 @@
+{
+  "name": "reportify-cli",
+  "version": "0.0.1",
+  "description": "CLI to authenticate Reportify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moi-team/reportify-auth-cli.git"
+  },
+  "keywords": [
+    "moi",
+    "cultivo",
+    "reportify",
+    "cli",
+    "auth"
+  ],
+  "author": "Paulo McNally <paulomcnally@moi-solutions.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moi-team/reportify-auth-cli/issues"
+  },
+  "homepage": "https://github.com/moi-team/reportify-auth-cli",
+  "directories": {
+    "lib": "./lib/cli"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "request": "^2.53.0"
+  },
+  "bin": {
+    "reportify": "./bin/reportify"
+  }
+}
